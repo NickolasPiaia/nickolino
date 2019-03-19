@@ -1,5 +1,4 @@
 if ('serviceworker' in navigator) {
-    navigator.serviceworker.register
+    navigator.serviceWorker.register
         ('service.worker.js');
 }
-document.querySelector('body').innerHTML = "FUNCIONANDO"
